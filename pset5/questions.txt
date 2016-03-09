@@ -1,0 +1,18 @@
+0.  A lung disease
+1.  It returns resource usage measures.
+2.  16 members
+3.  Because we want to find he usage measures of the functions in dictionary.c, not of getrusage.
+4. The for loop starts to iterate through the first word and does this until the eof is reached.
+   Each letter is added to the string 'word' as long as it is a letter or "'". If a number is found,
+   it is ignored and the rest of the string is read. However, if the index is greater than zero then
+   this is not the beginning of a word, but rather the null terminated at the end so this must be the
+   end of a word. The string in 'word' is terminated with a "\0" and the words counter is incremented
+   by 1. The 'check' function is called on the complete word. Depending on what it returns the word may
+   or may not be mis-spelled so the mispelled counter is incremented by 1 is it is. The word is printed
+   to he screen.
+5.  Non-alphanumeric haracters may be included.
+6.  So that when speller calls these functions it cannot alter any of the arguments.
+7.  I used a hash table and linked lists. Each node has a word and a pointer to another node (next). 
+8.  ~2.8s
+9.  I initalized the hash_table array with NULL instead of initializing it and then iterating over it setting the contents to NULL.
+10. No it is perfect ;p

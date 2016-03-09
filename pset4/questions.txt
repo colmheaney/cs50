@@ -1,0 +1,67 @@
+0.
+BMP- 2^24 = 16, 777, 216
+GIF- 2^8  = 256
+JPG- 2^24 = 16, 777, 216
+PNG- 2^24 = 16, 777, 216
+
+1.
+GIF
+
+2.
+Lossless compression algorithms reduce file size without losing image quality
+Lossy compression algorithms take advantage of the inherent limitations of the human eye and discard invisible information. 
+
+3.
+JPEG
+
+4.
+1.The system modifies the filenames first character in the files directory entry to signal that the file has been deleted and the directory entry can be recycled.
+2.The system moves all the files FAT clusters to the hardrives list of free clusters
+
+5.
+Destroy the harddrive.
+
+6.
+The <stdint.h> header shall declare sets of integer types having specified widths, and shall define corresponding sets of macros. It shall also define macros that specify limits of integer types corresponding to types defined in other standard headers. 
+
+7.
+Allows programmer todefine their own datatypes??
+
+8.
+Byte = 1
+Dword = 4
+Long = 4
+Word = 2
+
+9.
+'B'
+'M'
+
+10.
+bi- Size of info header
+bf- Size of file header
+
+11.
+biCompression must be either BI_RGB or BI_BITFIELDS
+
+12.
+biXPelsPerMeter; 
+biYPelsPerMeter; 
+
+13. 
+If is fails to open the file.
+
+14. 
+To read 1 byte at a time
+
+15.
+1
+
+16.
+move to a specific location in a file
+
+17.
+Seek from the current location
+
+18.
+Rick Astley
